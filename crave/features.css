@@ -1,0 +1,33 @@
+.feature{
+    margin: 4rem 0;
+
+}
+
+.feature h2{
+    color: #ff00a3;
+    text-shadow: 2px 2px 0 rgb(218, 233, 6);
+}
+
+.feature .content{
+    position: relative;
+    bottom: 2rem;
+}
+
+@media screen and (min-width: 810px) {
+
+    .feature{
+        display: flex;
+    }
+    
+    .feature figure{
+        flex: 7;
+    }
+
+    .feature .content {
+        flex: 3;
+        position: static;
+
+
+    }
+}
+
