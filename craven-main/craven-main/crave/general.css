@@ -1,3 +1,14 @@
+:root{
+    --bg-secondary: #29404e;
+    --cl-accent: #ff00a3;
+    --cl-button: red;
+}
+
+
+
+
+
+
 *,
 *::before,
 *::after{
@@ -9,7 +20,10 @@
 
 html{
     font-size: 100%;
-    line-height: 1.15;;
+    line-height: 1.15;
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
 }
 
 
@@ -66,6 +80,37 @@ figure{
 
 }
 
+
+.menu{
+    margin: 0%;
+    padding-left: 0;
+}
+
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
 .container{
     padding: 0 1.25rem;
+    max-width: 1170px ;
+    margin: 0 auto;
+}
+
+
+input,
+button {
+    all: unset;
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+}
+
+button{
+    cursor: pointer;
 }
